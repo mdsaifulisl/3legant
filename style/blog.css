@@ -1,0 +1,41 @@
+.shop-contant{
+    height: 392px;
+    width: 100%;
+    background: url(../img/blog.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.shop-contant .shop-btn{
+    display: flex;
+    gap: 1rem;
+    align-items: center; 
+}
+
+.shop-contant .shop-btn a i{
+    margin-left: .3rem;
+}
+.shop-contant .shop-btn a:hover{
+    color: var(--primary-color);
+    transition: .5s;
+}
+.shop-contant .shop-btn h5{
+    margin-top: .5rem;
+}
+
+
+/* Articles */
+.articles-box img{
+    width: 100%;
+    transition: .5s;
+}
+.articles-box img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Articles end */
